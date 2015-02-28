@@ -16,10 +16,14 @@
     "url": "https://github.com/kosich/homepage/issues"
   },
   "homepage": "https://github.com/kosich/homepage",
-  "dependencies": {},
+  "dependencies": {
+    "normalize.css": "^3.0.2"
+  },
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-jade": "^1.0.0",
-    "gulp-less": "^3.0.1"
+    "gulp-less": "^3.0.1",
+    "gulp-plumber": "^0.6.6",
+    "gulp-watch": "^4.1.1"
   }
 }
